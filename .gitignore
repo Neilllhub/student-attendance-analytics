@@ -1,0 +1,23 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Local environment
+.venv/
+venv/
+
+# IDE settings
+.vscode/
+
+# Local database exports and backups
+*.sql
+*.dump
+*.bak
+
+# Temporary files
+*.tmp
