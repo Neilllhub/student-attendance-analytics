@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 connection = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="neil@1729",
+    password=os.getenv("STUDENT_DB_PASSWORD")
     database="student_analytics"
 )
 
